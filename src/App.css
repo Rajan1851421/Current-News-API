@@ -1,0 +1,95 @@
+
+body{
+  background-image: linear-gradient(rgb(241, 189, 189), rgb(223, 223, 187), rgb(208, 201, 224));
+}
+
+.navbar {
+  color: white !important;
+  background-color: rgb(237, 233, 233) !important;
+  position: fixed !important;
+  border: 0px solid yellow;
+  z-index: 5;
+  margin-top: -17px;
+  
+  
+
+}
+
+.navbar-brand {
+  color:black !important;
+  font-weight: bold;
+  border: 0.1px solid rgb(92, 90, 90) !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: default;
+  padding: 0 10px;
+}
+
+/* .navbar-brand:hover {
+  transform: rotateY('180') ease in out !important;
+  cursor: default;
+} */
+
+ul {
+  margin-left: 50px;
+  border: 0px solid white;
+  font-weight: bold !important;
+}
+
+ul li {
+  border: 0px solid white;
+  
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 0px 10px;
+  font-size: 15px;
+}
+
+ li:hover {
+  background-color: rgb(109, 109, 109);
+  cursor: pointer;
+  color: red !important;
+ 
+}
+
+.navbarbrand::first-letter {
+  color: red !important;
+  font-size: 40px;
+  font-style: italic;
+}
+
+
+/* .card-body{
+  max-height:350px;
+} */
+.card {
+  /* Set a maximum height for the card */
+  max-height: 350px;
+
+  /* Optionally, set a minimum height to prevent it from shrinking too much */
+  min-height: 350px;
+
+  /* Add other styles as needed */
+  /* For example, to add scrollbars when the content overflows */
+  overflow: auto;
+
+  /* You can also add padding, margin, background color, etc. */
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+
+/* .card-body {
+ 
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+} */
+
+.col{  
+  background-size: cover;
+}
+
+.loading img{
+height: 100px;
+width: 100px;
+}
